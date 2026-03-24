@@ -8,7 +8,6 @@
                     width="905"
                     height="912"
                 />
-                <!-- <img :src="HeroImage" alt="Hero Image" /> -->
             </div>
             <div class="text-center lg:text-left">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl">Hello I&apos;m</h2>
