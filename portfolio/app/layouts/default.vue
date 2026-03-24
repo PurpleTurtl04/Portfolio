@@ -26,16 +26,22 @@
                         </div>
                         <ul
                             tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                            class="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow"
                         >
                             <li>
-                                <NuxtLink to="/">Home</NuxtLink>
+                                <NuxtLink to="/" @click="closeDropdown"
+                                    >Home</NuxtLink
+                                >
                             </li>
                             <li>
-                                <NuxtLink to="/about">About</NuxtLink>
+                                <NuxtLink to="/about" @click="closeDropdown"
+                                    >About</NuxtLink
+                                >
                             </li>
                             <li>
-                                <NuxtLink to="/projects">Projects</NuxtLink>
+                                <NuxtLink to="/projects" @click="closeDropdown"
+                                    >Projects</NuxtLink
+                                >
                             </li>
                             <li>
                                 <a>Contact</a>
@@ -72,3 +78,10 @@
         </main>
     </div>
 </template>
+
+<script setup>
+    const closeDropdown = () => {
+        // Blur the currently focused element (the link/button clicked inside the dropdown)
+        document.activeElement?.blur();
+    };
+</script>
