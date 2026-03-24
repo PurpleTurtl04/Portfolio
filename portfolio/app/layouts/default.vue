@@ -42,7 +42,9 @@
                             </li>
                         </ul>
                     </div>
-                    <NuxtLink to="/" class="btn btn-ghost text-xl"
+                    <NuxtLink
+                        to="/"
+                        class="btn btn-ghost no-animations hover:current-color text-xl hover:bg-transparent hover:text-current"
                         >Nick Edwards</NuxtLink
                     >
                 </div>

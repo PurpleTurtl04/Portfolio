@@ -1,18 +1,19 @@
 <template>
-    <div class="hero bg-base-200 min-h-screen">
+    <div class="hero min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="max-w-3xl">
                 <NuxtImg
-                    src="/portfolio/app/assets/images/HeroImage.png"
+                    src="/images/HeroImage.png"
                     alt="Man holding a baby"
-                    width="{905}"
-                    height="{912}"
+                    width="905"
+                    height="912"
                 />
+                <!-- <img :src="HeroImage" alt="Hero Image" /> -->
             </div>
             <div class="text-center lg:text-left">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl">Hello I&apos;m</h2>
                 <h1
-                    class="text-primary pt-3 text-6xl font-bold md:text-7xl lg:ml-5 lg:text-8xl"
+                    class="text-primary pt-3 text-6xl font-extrabold md:text-7xl lg:ml-5 lg:text-8xl"
                 >
                     Nick
                 </h1>
