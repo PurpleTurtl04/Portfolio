@@ -1,5 +1,5 @@
 <template>
-    <div class="hero min-h-screen">
+    <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="max-w-3xl">
                 <NuxtImg
@@ -26,7 +26,9 @@
                     with an analytical background
                 </h3>
                 <div class="flex justify-center gap-2 pt-6 lg:justify-start">
-                    <button class="btn btn-primary tracking-wider">
+                    <button
+                        class="btn btn-primary bg-primary/90 tracking-wider"
+                    >
                         Got a Project?
                     </button>
                     <button class="btn btn-outline btn-primary tracking-wider">
