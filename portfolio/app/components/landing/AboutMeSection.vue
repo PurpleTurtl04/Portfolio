@@ -1,6 +1,6 @@
 <template>
     <div
-        class="container mx-auto mt-15 grid max-w-7xl grid-cols-1 items-center justify-center gap-6 px-6 lg:grid-cols-2"
+        class="container mx-auto mt-30 grid max-w-7xl grid-cols-1 items-center justify-center gap-6 px-6 lg:mt-40 lg:grid-cols-2"
     >
         <div class="flex flex-col items-center lg:order-2">
             <h2 class="pb-2 text-center text-3xl lg:text-4xl">About Me</h2>

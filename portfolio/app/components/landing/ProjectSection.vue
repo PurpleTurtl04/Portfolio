@@ -17,7 +17,7 @@
             :index="index"
         />
         <div class="mt-2 text-center">
-            <NuxtLink to="/projects" class="link link-hover text-xl"
+            <NuxtLink to="/projects" class="link text-xl"
                 >View All Projects</NuxtLink
             >
         </div>
