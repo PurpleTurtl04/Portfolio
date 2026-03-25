@@ -10,7 +10,12 @@
                 class="scale-75"
             />
         </div>
-        <div
+        <Project
+            v-for="(project, index) in projectListLimited"
+            :key="project.id"
+            :="project"
+        />
+        <!-- <div
             class="container mx-auto mt-2 grid grid-cols-1 items-center justify-center gap-6 px-6 lg:grid-cols-2"
         >
             <div class="flex flex-col items-center">
@@ -67,6 +72,16 @@
                     class="rounded-2xl"
                 />
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
+
+<script setup>
+    import { ref, computed } from 'vue';
+    import projects from '~/data/projects.json';
+
+    const projectList = ref(projects);
+    const projectListLimited = computed(() => {
+        return projectList.value.slice(0, 3);
+    });
+</script>
