@@ -2,105 +2,117 @@
     {
         "id": 1,
         "name": "Beckaroo & The Zoo",
-        "tools": [
+        "techStack": [
             {
-                "tool": "JavaScript",
+                "name": "JavaScript",
                 "color": "badge-warning"
             },
             {
-                "tool": "React",
+                "name": "React",
                 "color": "badge-info"
             },
             {
-                "tool": "Tailwindcss",
+                "name": "Tailwindcss",
                 "color": "badge-secondary"
             },
             {
-                "tool": "Supabase",
+                "name": "Supabase",
                 "color": "badge-success"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/Portfolio",
-        "image": "/images/Beckaroo.png"
+        "images": [
+            "/images/beckaroo1.jpg",
+            "/images/beckaroo2.jpg",
+            "/images/beckaroo3.jpg"
+        ]
     },
     {
         "id": 2,
         "name": "ChatApp",
-        "tools": [
+        "techStack": [
             {
-                "tool": "JavaScript",
+                "name": "JavaScript",
                 "color": "badge-warning"
             },
             {
-                "tool": "React",
+                "name": "React",
                 "color": "badge-info"
             },
             {
-                "tool": "Tailwindcss",
+                "name": "Tailwindcss",
                 "color": "badge-secondary"
             },
             {
-                "tool": "Vite",
+                "name": "Vite",
                 "color": "badge-primary"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/ChatApp",
-        "image": "/images/Beckaroo.png"
+        "images": [
+            "/images/chatapp1.jpg",
+            "/images/chatapp2.jpg",
+            "/images/chatapp3.jpg"
+        ]
     },
     {
         "id": 3,
         "name": "Team App",
-        "tools": [
+        "techStack": [
             {
-                "tool": "JavaScript",
+                "name": "JavaScript",
                 "color": "badge-warning"
             },
             {
-                "tool": "React",
+                "name": "React",
                 "color": "badge-info"
             },
             {
-                "tool": "Tailwindcss",
+                "name": "Tailwindcss",
                 "color": "badge-secondary"
             },
             {
-                "tool": "Vite",
+                "name": "Vite",
                 "color": "badge-primary"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/Team-App",
-        "image": "/images/Beckaroo.png"
+        "images": [
+            "/images/teamapp1.jpg",
+            "/images/teamapp2.jpg",
+            "/images/teamapp3.jpg"
+        ]
     },
     {
         "id": 4,
         "name": "Beckaroo & The Zoo",
-        "tools": [
+        "techStack": [
             {
-                "tool": "JavaScript",
+                "name": "JavaScript",
                 "color": "badge-warning"
             },
             {
-                "tool": "React",
+                "name": "React",
                 "color": "badge-info"
             },
             {
-                "tool": "Tailwindcss",
+                "name": "Tailwindcss",
                 "color": "badge-secondary"
             },
             {
-                "tool": "Supabase",
+                "name": "Supabase",
                 "color": "badge-success"
             }
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non nisi eget ipsum lacinia varius et maximus magna. Sed hendrerit purus imperdiet elementum condimentum. Mauris cursus sagittis iaculis.",
         "url": "https://google.com",
         "github": "https://github.com/PurpleTurtl04/Portfolio",
-        "image": "/images/Beckaroo.png"
+        "images": ["/images/beckaroo1.png"]
     }
 ]
