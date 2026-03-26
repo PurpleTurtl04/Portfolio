@@ -4,7 +4,7 @@
             <div class="max-w-3xl">
                 <NuxtImg
                     src="/images/HeroImage.png"
-                    alt="Man holding a baby"
+                    alt="Nick holding his daughter"
                     width="905"
                     height="912"
                 />
