@@ -1,6 +1,6 @@
 <template>
     <div
-        class="container mx-auto grid max-w-7xl grid-cols-1 items-center justify-center gap-6 pb-8 lg:mt-4 lg:grid-cols-2"
+        class="mx-auto grid max-w-7xl grid-cols-1 items-center justify-center gap-6 pb-8 lg:mt-4 lg:grid-cols-2"
     >
         <div
             :class="`flex flex-col items-center ${(index + 1) % 2 == 0 ? 'lg:order-1' : 'lg:order-2'}`"

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "company": "Aline - Senior Software Developer",
+        "startDate": "Jan 2021",
+        "endDate": "May 2025",
+        "description": "As a Senior Developer, I was responsible for developing and maintaining software applications for the Leasing and Billing team. In addition to full-stack development, I assisted in managing projects by gathering requirements, facilitating communication with key stakeholders, architecting solutions and database structures, and providing guidance and support to team members."
+    },
+    {
+        "id": 2,
+        "company": "Developer 1 - Atria Senior Living",
+        "startDate": "Jan 2019",
+        "endDate": "Dec 2020",
+        "description": "Being a Developer on the Atria Software Engineering team allowed me to enhance my full-stack development knowledge and skills significantly. I had the opportunity to help design and develop new applications and enhancements to current systems, such as the company's Intranet. This role expanded my knowledge and understanding of how an application's architecture significantly impacts the app and any application that may interact with it."
+    },
+    {
+        "id": 3,
+        "company": "Junior Software Developer - CloudFit Software",
+        "startDate": "Apr 2018",
+        "endDate": "Nov 2018",
+        "description": "Being a Developer on the Atria Software Engineering team allowed me to enhance my full-stack development knowledge and skills significantly. I had the opportunity to help design and develop new applications and enhancements to current systems, such as the company's Intranet. This role expanded my knowledge and understanding of how an application's architecture significantly impacts the app and any application that may interact with it."
+    }
+]
