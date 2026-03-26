@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mt-15 px-6">
+    <div class="mt-15 px-6">
         <div class="flex flex-col items-center">
             <h2 class="text-center text-3xl lg:text-4xl">Portfolio</h2>
             <NuxtImg
