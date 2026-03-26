@@ -1,9 +1,11 @@
 <template>
     <div>
-        <Navbar />
-        <main class="container mx-auto py-6">
-            <slot />
-        </main>
-        <Footer />
+        <div class="flex min-h-screen flex-col">
+            <Navbar />
+            <main class="container mx-auto flex-grow py-6">
+                <slot />
+            </main>
+            <Footer />
+        </div>
     </div>
 </template>

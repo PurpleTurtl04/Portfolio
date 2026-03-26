@@ -1,6 +1,6 @@
 <template>
     <footer
-        class="mx-auto mt-30 flex flex-col items-center justify-center bg-white/10 lg:mt-40"
+        class="mt-30 flex flex-col items-center justify-center bg-white/10 lg:mt-40"
     >
         <h2 class="mt-6 pb-4 text-2xl">Nick Edwards</h2>
         <div class="flex gap-4 pb-6">
