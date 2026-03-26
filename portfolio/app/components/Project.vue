@@ -24,16 +24,12 @@
                     class="flex justify-center gap-2 pt-3 lg:justify-start lg:pt-6"
                 >
                     <a :href="url" target="_blank">
-                        <button
-                            class="btn btn-primary bg-primary/90 tracking-wider"
-                        >
+                        <button class="btn btn-dash btn-primary tracking-wider">
                             View Project
                         </button>
                     </a>
                     <a :href="github" target="_blank">
-                        <button
-                            class="btn btn-outline btn-primary tracking-wider"
-                        >
+                        <button class="btn btn-soft btn-primary tracking-wider">
                             Github Repo
                         </button>
                     </a>

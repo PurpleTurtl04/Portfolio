@@ -1,5 +1,5 @@
 <template>
-    <div class="hero">
+    <div class="hero px-6">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="max-w-3xl">
                 <NuxtImg

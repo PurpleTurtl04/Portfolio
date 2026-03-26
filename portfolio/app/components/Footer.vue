@@ -6,20 +6,20 @@
         <div class="flex gap-4 pb-6">
             <NuxtImg
                 src="/images/Phone.svg"
-                width="35"
-                height="35"
+                width="25"
+                height="25"
                 alt="A phone symbol"
             />
             <NuxtImg
                 src="/images/Mail.svg"
-                width="35"
-                height="35"
+                width="25"
+                height="25"
                 alt="A mail envelope"
             />
             <NuxtImg
                 src="/images/LinkedIn.svg"
-                width="35"
-                height="35"
+                width="25"
+                height="25"
                 alt="The LinkedIn logo"
             />
         </div>
