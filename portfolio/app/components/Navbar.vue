@@ -26,7 +26,7 @@
                         </div>
                         <ul
                             tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                            class="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-24 p-2 shadow"
                         >
                             <li>
                                 <NuxtLink to="/" @click="closeDropdown"
@@ -45,7 +45,7 @@
                             </li>
                             <li>
                                 <div
-                                    class="btn btn-xs btn-soft btn-primary"
+                                    class="btn btn-xs btn-soft btn-primary pl-0"
                                     @click="modalStore.openModal()"
                                 >
                                     Contact

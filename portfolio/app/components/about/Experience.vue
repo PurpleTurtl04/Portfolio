@@ -28,7 +28,6 @@
 </template>
 
 <script setup>
-    import { ref } from 'vue';
     import experience from '~/data/experience.json';
 
     const experienceList = ref(experience);

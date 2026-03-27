@@ -28,14 +28,19 @@
                 <div class="flex justify-center gap-2 pt-6 lg:justify-start">
                     <button
                         class="btn btn-primary bg-primary/90 tracking-wider"
+                        @click="modalStore.openModal()"
                     >
                         Got a Project?
                     </button>
                     <button class="btn btn-outline btn-primary tracking-wider">
-                        My Resume
+                        <NuxtLink to="/about">My Resume</NuxtLink>
                     </button>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+    const modalStore = useModalStore();
+</script>

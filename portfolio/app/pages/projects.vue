@@ -20,7 +20,6 @@
 </template>
 
 <script setup>
-    import { ref } from 'vue';
     import projects from '~/data/projects.json';
 
     const projectList = ref(projects);
