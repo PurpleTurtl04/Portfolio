@@ -44,7 +44,12 @@
                                 >
                             </li>
                             <li>
-                                <a>Contact</a>
+                                <div
+                                    class="btn btn-xs btn-soft btn-primary"
+                                    @click="modalStore.openModal()"
+                                >
+                                    Contact
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +71,12 @@
                             <NuxtLink to="/projects">Projects</NuxtLink>
                         </li>
                         <li>
-                            <a>Contact</a>
+                            <div
+                                class="btn btn-sm btn-soft btn-primary"
+                                @click="modalStore.openModal()"
+                            >
+                                Contact
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -80,4 +90,6 @@
         // Blur the currently focused element (the link/button clicked inside the dropdown)
         document.activeElement?.blur();
     };
+
+    const modalStore = useModalStore();
 </script>
