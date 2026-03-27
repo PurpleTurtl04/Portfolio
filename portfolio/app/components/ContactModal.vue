@@ -1,14 +1,24 @@
 <template>
     <div :class="{ 'modal-open': modalStore.isModalOpen }" class="modal">
         <div class="modal-box">
-            <h3 class="text-lg font-bold">Hello!</h3>
-            <p class="py-4">Press ESC key or click the X button to close.</p>
-            <div class="modal-action">
-                <!-- Use a button to close the modal via Pinia action -->
-                <button class="btn" @click="modalStore.closeModal()">
-                    Close
-                </button>
-            </div>
+            <h3 class="text-lg font-bold">Let's work together!</h3>
+            <p class="py-4">Fill out the information below to contact me.</p>
+            <!-- <form method="POST" action="/submit"> -->
+            <form>
+                <input
+                    type="text"
+                    placeholder="Data"
+                    class="input input-bordered mt-4 w-full"
+                />
+                <div class="modal-action">
+                    <button class="btn btn-primary" type="submit">
+                        Submit
+                    </button>
+                    <button class="btn" @click="modalStore.closeModal()">
+                        Close
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </template>
