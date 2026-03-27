@@ -33,7 +33,7 @@
                         Got a Project?
                     </button>
                     <button class="btn btn-outline btn-primary tracking-wider">
-                        <NuxtLink to="/about">My Resume</NuxtLink>
+                        <NuxtLink to="/about">My Experience</NuxtLink>
                     </button>
                 </div>
             </div>
