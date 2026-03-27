@@ -1,5 +1,6 @@
 <template>
-    <div class="p-6">
-        <AboutMe />
+    <div class="container p-6">
+        <AboutSummary />
+        <AboutExperience />
     </div>
 </template>
