@@ -12,7 +12,8 @@
                 <div class="flex gap-1 lg:gap-1.5">
                     <div
                         v-for="tech in techStack"
-                        :class="`badge badge-sm md:badge-md badge-soft ${tech.color}`"
+                        class="badge badge-sm md:badge-md badge-soft"
+                        :class="tech.color"
                     >
                         {{ tech.name }}
                     </div>
