@@ -14,6 +14,7 @@ export default defineNuxtConfig({
         head: {
             htmlAttrs: {
                 lang: 'en',
+                'data-theme': 'dark',
             },
             meta: [
                 { charset: 'utf-8' },
